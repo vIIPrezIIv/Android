@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/activity_main"
+    tools:context="ca.on.sl.comp208.lab1a.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matching Game"
+        android:id="@+id/textView" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imageButton"
+                android:tag='1'
+                style="@style/ImageStyle"/>
+                <!--app:srcCompat="@drawable/cricket"-->
+                <!--style="@style/bugImage"-->
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imageButton2"
+                android:tag='2'
+                style="@style/ImageStyle"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imageButton3"
+                android:tag='3'
+                style="@style/ImageStyle"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imageButton4"
+                android:tag='4'
+                style="@style/ImageStyle"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imageButton5"
+                style="@style/ImageStyle"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imageButton6"
+                style="@style/ImageStyle"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imageButton7"
+                style="@style/ImageStyle"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imageButton8"
+                style="@style/ImageStyle"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imageButton9"
+                style="@style/ImageStyle"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imageButton10"
+                style="@style/ImageStyle"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imageButton11"
+                style="@style/ImageStyle"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imageButton12"
+                style="@style/ImageStyle"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imageButton13"
+                style="@style/ImageStyle"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imageButton14"
+                style="@style/ImageStyle"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imageButton15"
+                style="@style/ImageStyle"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/imageButton16"
+                style="@style/ImageStyle"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:text="Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginLeft="76dp"
+        android:layout_marginStart="76dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <TextView
+        android:text="#Tries:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:id="@+id/textView8" />
+</RelativeLayout>
